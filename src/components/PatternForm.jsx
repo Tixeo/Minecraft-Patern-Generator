@@ -198,7 +198,7 @@ const PatternForm = () => {
                     <div className="mt-2 grid" style={{ gridTemplateColumns: `repeat(${width}, 40px)` }}>
                         {pattern.flat().map((block, index) => (
                             <div key={index} className="w-10 h-10" style={{
-                                backgroundImage: `url(Minecraft-Patern-Generator/blocks/${block}.png)`,
+                                backgroundImage: `url(blocks/${block}.png)`,
                                 backgroundSize: 'cover'
                             }}></div>
                         ))}

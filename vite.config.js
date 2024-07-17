@@ -4,7 +4,7 @@ import path from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Minecraft-Pattern-Generator/',
+  base: '/Minecraft-Patern-Generator/',
   plugins: [react()],
   resolve: {
     alias: {

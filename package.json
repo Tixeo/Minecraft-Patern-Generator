@@ -1,13 +1,9 @@
 {
-  "homepage": "https://tixeo.github.io/Minecraft-Patern-Generator",
   "name": "mc-patern-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "serve": "vite preview",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
